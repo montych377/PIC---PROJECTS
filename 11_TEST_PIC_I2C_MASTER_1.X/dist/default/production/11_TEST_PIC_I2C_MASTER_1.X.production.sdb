@@ -1,0 +1,108 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"29 E:\MPLABX_PIC\11_TEST_PIC_I2C_MASTER_1.X\Main_I2c_M.c
+[v _main main `(i  1 e 2 0 ]
+"42
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+"48
+[v _I2C_MasterWait I2C_MasterWait `(v  1 e 1 0 ]
+"52
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+"56
+[v _I2C_WriteData I2C_WriteData `(v  1 e 1 0 ]
+"71
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"809 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"816
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1755
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1824
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1831
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2379
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2382
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2637
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2742
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2811
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"29 E:\MPLABX_PIC\11_TEST_PIC_I2C_MASTER_1.X\Main_I2c_M.c
+[v _main main `(i  1 e 2 0 ]
+{
+"40
+} 0
+"56
+[v _I2C_WriteData I2C_WriteData `(v  1 e 1 0 ]
+{
+[v I2C_WriteData@data data `uc  1 a 1 wreg ]
+[v I2C_WriteData@data data `uc  1 a 1 wreg ]
+[v I2C_WriteData@data data `uc  1 a 1 0 ]
+"59
+} 0
+"71
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"74
+} 0
+"52
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"55
+} 0
+"48
+[v _I2C_MasterWait I2C_MasterWait `(v  1 e 1 0 ]
+{
+"50
+} 0
+"42
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+{
+[v I2C_Initialize@c c `uc  1 a 1 wreg ]
+[v I2C_Initialize@c c `uc  1 a 1 wreg ]
+[v I2C_Initialize@c c `uc  1 a 1 9 ]
+"47
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 3 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 2 ]
+[v ___aldiv@counter counter `uc  1 a 1 1 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 6 ]
+[v ___aldiv@dividend dividend `l  1 p 4 10 ]
+"41
+} 0
